@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace robot
@@ -8,23 +8,31 @@ namespace robot
         public CloseAttacks[] c_attacks;
         public BehindAttacks[] b_attacks;
         public RuntoAttack r;
-        public float fov_angle;//見える範囲（角度）
-        public float sight;//視力
+       
+        [HideInInspector]
         public float distance;//プレイヤーと敵との距離
+        [HideInInspector]
         public float angle;//プレイヤーと敵との角度
-        public float limit;//遠い/近いを区別する距離の境目
-        public float walkspeed;
-        public float runspeed;
         public float time;//インターバル時間
         public float delta;
         public bool insight;//見えてるかどうか
-
-
-
         public Transform target;//敵の標的、現時点ではプレイヤー
         public Vector3 lastpos;//突進用
-        
-        
+
+        [Header("inspectorで編集する項目")]
+        public float limit;//遠い/近いを区別する距離の境目。inspectorで編集する項目
+        public float walkspeed;//歩行スピード。inspectorで変数
+        public float runspeed;
+        public float fov_angle;//見える範囲（角度）
+        public float sight;//視力
+
+
+
+
+
+      
+
+
         RaycastHit hit;
         Vector3 dirtotarget;
 
@@ -39,7 +47,7 @@ namespace robot
             origin.y = 0.5f;
             Vector3 dir = dirtotarget;
             dir.y = 0.5f;
-           Vector3 p = new Vector3(hit.point.x, 0, hit.point.z);
+            Vector3 p = new Vector3(hit.point.x, 0, hit.point.z);
 
             if (time < 0 && time > -1f)//-1fをfloat型の変数homingtimeに変更する
             {
@@ -48,12 +56,12 @@ namespace robot
                     Debug.DrawRay(origin, dir);
                     Debug.Log(hit.transform.gameObject.name);
                     p = new Vector3(hit.point.x, 0, hit.point.z);
-                   
+
 
                 }
             }
 
-            return p ;
+            return p;
         }
 
         public float distanceFromtarget()
@@ -93,7 +101,7 @@ namespace robot
                 if (angle > fov_angle)
                     return true;
             }
-            return  false;
+            return false;
         }
 
         void Start()
@@ -109,12 +117,11 @@ namespace robot
         void Update()
         {
 
-
             states.Tick(delta);
             if (target)
                 dirtotarget = target.position - transform.position;
 
-              angle = (time > 0) ? angleToTarget() : Vector3.Distance(lastpos, transform.position);//インターバル時間が0以上の場合、プレイヤーとの角度を返すが、そうでなければlastpos(突進先）との角度を返す
+            angle = (time > 0) ? angleToTarget() : Vector3.Distance(lastpos, transform.position);//インターバル時間が0以上の場合、プレイヤーとの角度を返すが、そうでなければlastpos(突進先）との角度を返す
             distance = distanceFromtarget();//インターバル時間がゼロ以上の場合、プレイヤーとの距離を返すが、そうでない場合突進先との距離を返す
             time -= Time.deltaTime;
             delta = Time.deltaTime;
@@ -141,7 +148,7 @@ namespace robot
             }
         }
 
-       
+
 
         public AIstate aiState;
 
@@ -166,23 +173,23 @@ namespace robot
             }
 
             insight = CheckInsight();
-           
-            
-            
+
+
+
             if (time > 0 && insight)
             {
-                
+
                 states.WalkToTarget(target, walkspeed);
             }
-            else if(time<0&&insight)
+            else if (time < 0 && insight)
             {
-              
+
                 states.RunToTargetAndAttack(lastpos, runspeed);
             }//インターバル時間がゼロ以上で視界に入っていた場合近寄る
              //そうでない場合突進する（歩く速度よりも速く、制限距離まで近づく。）
 
         }
-       
+
 
 
 
@@ -190,7 +197,7 @@ namespace robot
         {
             insight = CheckInsight();
             //距離が一定以上で視界に入っていたら、「farinsight」
-            if (distance > limit && insight&&time>-5f)
+            if (distance > limit && insight && time > -5f)
             {
                 aiState = AIstate.farinsight;
             }
@@ -231,14 +238,14 @@ namespace robot
             }
         }
 
-       
+
         public void AddTime_Close(int num)
         {
             time = c_attacks[num].intervaltime;
         }
 
-       
-          
+
+
         public void AddTime_Run()
         {
             time = r.intervaltime;
@@ -257,53 +264,51 @@ namespace robot
            {
                //振り向く
            }
-
            void HandleCloseNotInSight()
            {
                //視界に入っておらず、制限距離以下まで近づいていたら後方に攻撃する
            }*/
 
-   
+
 
 
 
 }
-    
-  
-    
-
-   
 
 
-    public class Attacks
-    {
-        public string attackanim;
-        public int attackpower;
-        public bool canBeparried;
-        public float intervaltime;
-     public GameObject colliders;
-    }
 
-    [System.Serializable]
-    public class CloseAttacks:Attacks
-    {
-        
-        private int closeattacknum;
-        
-    }
 
-    [System.Serializable]
-    public class BehindAttacks:Attacks
-    {
-       
-      
-       private int behindattacknum;
-      
-    }
 
-    [System.Serializable]
-    public class RuntoAttack:Attacks
-    {
-       
-    }
-    
+
+
+public class Attacks
+{
+    public string attackanim;
+    public int attackpower;
+    public bool canBeparried;
+    public float intervaltime;
+    public GameObject colliders;
+}
+
+[System.Serializable]
+public class CloseAttacks : Attacks
+{
+
+    private int closeattacknum;
+
+}
+
+[System.Serializable]
+public class BehindAttacks : Attacks
+{
+
+
+    private int behindattacknum;
+
+}
+
+[System.Serializable]
+public class RuntoAttack : Attacks
+{
+
+}
