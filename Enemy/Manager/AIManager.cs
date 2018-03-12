@@ -114,8 +114,8 @@ namespace robot
             if (target)
                 dirtotarget = target.position - transform.position;
 
-            angle =(time>0)? angleToTarget(): Vector3.Distance(lastpos, transform.position); 
-            distance = distanceFromtarget();
+              angle = (time > 0) ? angleToTarget() : Vector3.Distance(lastpos, transform.position);//インターバル時間が0以上の場合、プレイヤーとの角度を返すが、そうでなければlastpos(突進先）との角度を返す
+            distance = distanceFromtarget();//インターバル時間がゼロ以上の場合、プレイヤーとの距離を返すが、そうでない場合突進先との距離を返す
             time -= Time.deltaTime;
             delta = Time.deltaTime;
             HandleFarInSight();
