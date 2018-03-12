@@ -190,42 +190,7 @@ using UnityEngine;
 
         }
 
-        void HandleDodge()
-        {
-           
-            if (!dodgeinput)
-                return;
-           
-            float v = vertical;
-            float h = horizontal;
 
-            //左スティックの入力があった場合、アニメーションがブレンドされて滅茶苦茶にならないようにする
-             v = (moveAmount > 0.3f) ? 1 : 0;
-             h = 0;
-            
-            if (v != 0)
-            {
-                if (moveDir == Vector3.zero)
-                    moveDir = transform.forward;
-                Quaternion targetRot = Quaternion.LookRotation(moveDir);
-                transform.rotation = targetRot;
-                AM.Initfordodge();
-                AM.rm_speed =stepspeed;//前方ステップのスピードを設定する
-            }
-            else
-            {
-                AM.rm_speed = 1.3f;
-                //左スティックの入力がない場合、バックステップをする
-            }
-
-            anim.SetFloat("vertical", v);
-            anim.SetFloat("horizontal", h);
-           
-            canMove = false;
-          
-            inAction = true;
-            anim.Play("Dodge");
-        }
 
         void HandleMovementAnimations()
         {
@@ -242,49 +207,7 @@ using UnityEngine;
             anim.SetFloat("horizontal", h);
         }
 
-       public void R1attack()
-        {
-            
-            anim.SetBool("cancombo", true);
-            anim.SetTrigger("comboattack");
-            Debug.Log("R1attack");
-        }
-
-      public  void R2charge()
-        {
-            
-           
-            if (anim.GetBool("ischarging") == false)
-            {
-                anim.SetBool("ischarging", true);
-                
-            }
-
-            if (chargepower < chargelimit)
-            {
-                chargepower += Time.deltaTime*chargerate;
-            }
-            else
-            {
-                return;
-            }
-
-
-        }
-       public void R2attack()
-        {
-            stats.attackpower = chargepower + stats.attackpower;
-            anim.applyRootMotion = true;
-            anim.SetBool("ischarging", false);
-            anim.SetTrigger("comboattack");
-            StartCoroutine("SetChargepowerZero");
-        }
-       IEnumerator SetChargepowerZero()
-        {
-            yield return new WaitForSeconds(0.2f);
-            chargepower = 0;
-            
-        }
+      
         public bool OnGround()
         {
             bool r = false;
