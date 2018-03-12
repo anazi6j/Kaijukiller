@@ -109,6 +109,7 @@ namespace robot
         void Update()
         {
 
+
             states.Tick(delta);
             if (target)
                 dirtotarget = target.position - transform.position;
