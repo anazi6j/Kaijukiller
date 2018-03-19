@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace robot
 {
-
-    public class ParryCollider : MonoBehaviour
-    {
-        StateManager state;
-        void OnTriggerEnter(Collider other)
+    /*
+        public class ParryCollider : MonoBehaviour
         {
-            if (state)
+            StateManager state;
+            void OnTriggerEnter(Collider other)
             {
-               /* EnemyStates e_st = other.transform.GetComponentInParent<EnemyStates>();
-
-                if (e_st != null)
+                if (state)
                 {
-                    e_st.CheckForParry(transform.root, states);
-                }*/
+                   /* EnemyStates e_st = other.transform.GetComponentInParent<EnemyStates>();
+
+                    if (e_st != null)
+                    {
+                        e_st.CheckForParry(transform.root, states);
+                    }
+                }
+
             }
 
         }
-      
-    }
+    }*/
 }

@@ -14,7 +14,7 @@ namespace robot
         public float vertical;
         public float distance;
 
-        public CharacterStats characterStats;
+        //public CharacterStats characterStats;
 
         [Header("States")]
         public bool isInvisible;
@@ -22,7 +22,7 @@ namespace robot
         public bool canMove;
         public bool isDead;
         public bool isrunning;
-        
+
         public bool hasDestination;
         public Vector3 targetDestination;
         public Vector3 dirToTarget;
@@ -53,7 +53,7 @@ namespace robot
             a_manager = GetComponent<Animationmanager>();
             //a_manager.Init(null, this);
 
-            
+
             ignoreLayers = ~(1 << 9);
         }
 
@@ -62,21 +62,21 @@ namespace robot
             delta = d;
             canMove = anim.GetBool(StaticStrings.onEmpty);
             distance = ai.distanceFromtarget();
-            if(dontDoAnything)
+            if (dontDoAnything)
             {
                 dontDoAnything = !canMove;
                 return;
             }
 
-            if(rotateToTarget)
+            if (rotateToTarget)
             {
                 LookTowardsTarget();
             }
-            if(isInvisible)
+            if (isInvisible)
             {
                 isInvisible = !canMove;
             }
-           
+
         }
 
         void LookTowardsTarget()
@@ -90,7 +90,7 @@ namespace robot
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, delta * 5);
         }
 
-        public void WalkToTarget(Transform t,float w)
+        public void WalkToTarget(Transform t, float w)
         {
             hasDestination = false;
             anim.Play("d|Idle");
@@ -99,7 +99,7 @@ namespace robot
                 SetDestination(t.position, w);
             }
 
-            if(distance < 5)
+            if (distance < 5)
             {
                 Debug.Log("stop");
                 canMove = false;
@@ -108,13 +108,13 @@ namespace robot
         }
 
 
-        public void RunToTargetAndAttack(Vector3 lastpos,float w)
+        public void RunToTargetAndAttack(Vector3 lastpos, float w)
         {
             hasDestination = false;
             isrunning = true;
             anim.Play("d|Run");
-           
-            if (distance > 5 &&canMove)
+
+            if (distance > 5 && canMove)
             {
                 SetDestination(lastpos, w);
             }
@@ -130,7 +130,7 @@ namespace robot
         {
             if (!hasDestination)
             {
-                
+
                 hasDestination = true;
                 agent.isStopped = false;
                 agent.SetDestination(d);
@@ -149,7 +149,7 @@ namespace robot
                 anim.SetBool(StaticStrings.onEmpty, false);
                 canMove = false;
             }
-            
+
         }
 
     }
