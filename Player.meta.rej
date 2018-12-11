@@ -1,0 +1,9 @@
+diff a/Player.meta b/Player.meta	(rejected hunks)
+@@ -4,6 +4,7 @@
+ timeCreated: 1483115323
+ licenseType: Free
+ DefaultImporter:
++  externalObjects: {}
+   userData: 
+   assetBundleName: 
+   assetBundleVariant: 

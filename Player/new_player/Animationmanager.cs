@@ -7,17 +7,23 @@ namespace robot
     {
         public Animator anim;
         StateManager state;
-
+        AttackActionManager aam;
+        Player_WeaponHook weapon;
+        ParryHook parry;
         public float rm_speed;
+        public int animationnum;
         bool dodging;
         float dodge_t;
+        private int animationlimit;
 
         public void Init(StateManager st)
         {
+            animationlimit = 1;
             state = st;
             anim = st.anim;
-
-           
+            aam = GetComponent<AttackActionManager>();
+            weapon = GetComponentInChildren<Player_WeaponHook>();
+            parry = GetComponentInChildren<ParryHook>();
         }
 
         public void Initfordodge()
@@ -84,28 +90,46 @@ namespace robot
 
         public void OpenDamageColliders()
         {
-            state.Ainfo.curAction.w_hook.OpenDamageColliders();
+            weapon.OpenDamageColliders();
+            //state.Ainfo.curAction.w_hook.OpenDamageColliders();
         }
 
         public void CloseDamageColliders()
         {
-            state.Ainfo.curAction.w_hook.CloseDamageColliders();
+            weapon.CloseDamageColliders();
+            //state.Ainfo.curAction.w_hook.CloseDamageColliders();
         }
 
         public void OpenParryCollider()
         {
             if (state == null)
                 return;
-
-            state.Ainfo.OpenParryCollider();
+            parry.OpenParryCollider();
+            //state.Ainfo.OpenParryCollider();
         }
         public void CloseParryCollider()
         {
             if (state == null)
                 return;
-
-            state.Ainfo.CloseParryCollider();
+            parry.CloseParryCollider();
+            //state.Ainfo.CloseParryCollider();
         }
+
+        public void IncreaseorSetZeroAttacknum()
+        {
+            if (animationnum<animationlimit)
+            {
+                animationnum++;
+                Debug.Log("plus");
+            }
+            else if(animationnum ==animationlimit)
+            {
+                animationnum = 0;
+                Debug.Log("Zero");
+            }
+        }
+
+       
 
     }
 

@@ -5,8 +5,9 @@ namespace robot
 {
      public class AttackActionManager : MonoBehaviour
       {
-
-          public List<Action> actionSlots = new List<Action>();
+        public int actionIndex;
+        public List<Action> actionSlots = new List<Action>();
+       
           StateManager state;
           public void Init(StateManager st)
           {
@@ -19,15 +20,52 @@ namespace robot
           }
 
 
-          public void UpdateAction()//ここを変える必要はない
+          public void UpdateAction()
           {
-              Weapon w = state.Ainfo.curAction;
-              for (int i = 0; i < w.actions.Count; i++)//PlayerAttackInfoManagerに登録されているactionの数だけ
-              {
-                  Action a = GetAction(w.actions[i].input);//①入力ボタンとそれに対応して呼び出されるアニメーションを格納するアクションを生成する。
-                  a.targetAnim = w.actions[i].targetAnim;//②：GetActionから返された情報を元に生成されたactionのアニメーションを割り当てる
-              }
-          }
+
+            //EmptyAllSlots();
+
+            //StaticFunction.DeepCopyAction(state.Ainfo.curAction, ActionInput.r1, ActionInput.r1,actionSlots);
+            //StaticFunction.DeepCopyAction(state.Ainfo.curAction, ActionInput.r2, ActionInput.r2, actionSlots);
+
+        }
+
+
+        
+
+        
+        
+
+
+        
+
+        /*
+        public void DeepCopyStepsList(Action from,Action to)
+        {
+            to.steps = new List<ActionSteps>();
+            for(int i=0;i<from.steps.Count;i++)
+            {
+                ActionSteps step = new ActionSteps();
+                DeepCopyStep(from.steps[i], step);
+                to.steps.Add(step);
+            }
+        }
+        */
+        //
+
+        public void DeepCopyStep(ActionSteps from,ActionSteps to)
+        {
+            to.branches = new List<ActionAnim>();
+
+            for(int i=0;i<from.branches.Count;i++)
+            {
+                ActionAnim a = new ActionAnim();
+                a.input = from.branches[i].input;
+                a.targetAnim = from.branches[i].targetAnim;
+                to.branches.Add(a);
+            }
+
+        }
 
 
 
@@ -47,8 +85,9 @@ namespace robot
           {
               for (int i = 0; i < 4; i++)
               {
-                  Action a = GetAction((ActionInput)i);
-                  a.targetAnim = null;
+                Action a = StaticFunction.GetAction((ActionInput)i, actionSlots);
+                //a.steps = null;
+                a.type = ActionType.attack;
               }
           }
 
@@ -56,19 +95,10 @@ namespace robot
           public Action GetActionSlot(StateManager st)
           {
               ActionInput a_input = GetActionInput(st);
-              return GetAction(a_input);
+            return StaticFunction.GetAction(a_input, actionSlots);
           }
 
-          public Action GetAction(ActionInput inp)
-          {
-              for(int i = 0; i < actionSlots.Count; i++)
-              {
-                  if (actionSlots[i].input == inp)
-                      return actionSlots[i];
-              }
-
-              return null;
-          }
+         
 
           public ActionInput GetActionInput(StateManager st)
           {
@@ -95,10 +125,89 @@ namespace robot
           r1,l1,r2,l2
       }
 
+    public enum ActionType
+    {
+        attack,block,parry
+    }
+
       [System.Serializable]
       public class Action
       {
+        
           public ActionInput input;
-          public string targetAnim;
+          public ActionType type;
+        public string targetAnim;
+        
+       
+        //public List<ActionSteps> steps;
+
+        ActionSteps defaultsteps;
+        /*
+        public ActionSteps GetActionSteps(ref int indx)
+        {
+           
+            if(steps ==null ||steps.Count == 0)//Actionstepsの動的配列stepsが空っぽだったら
+            {
+                if (defaultsteps == null)
+                {
+                    defaultsteps = new ActionSteps();//Actinstepsインスタンスを動的に生成する
+                    defaultsteps.branches = new List<ActionAnim>();//ActionAnimインスタンスを動的に生成する
+                    ActionAnim aa = new ActionAnim();
+                    aa.input = input;//ActionAnimに割り当てられるボタンを決定する
+                    aa.targetAnim = targetAnim;//ActionAnimに割り当てられるアニメーションを決定する
+                    defaultsteps.branches.Add(aa);//branchにActionAnimの変数aaを追加する（アニメーションとボタンを決定する）
+                }
+                
+            return defaultsteps;
+            }
+            if (indx > steps.Count - 1)
+                indx = 0;
+            ActionSteps retval = steps[indx];
+            if (indx > steps.Count - 1)
+                indx= 0;
+
+            else
+                indx++;
+
+            return retval;
+        }
+        */
       }
-  }
+
+    [System.Serializable]
+    public class ActionSteps
+    {
+        public List<ActionAnim> branches = new List<ActionAnim>();
+        public ActionAnim GetBranch(ActionInput inp)
+        {
+            for(int i=0;i<branches.Count;i++)
+            {
+                if (branches[i].input == inp)
+                    return branches[i];
+            }
+            return branches[0];
+        }
+
+    }
+
+    [System.Serializable]
+    public class ActionAnim
+    {
+        public string targetAnim;
+        public ActionInput input;
+        public float attackpower;
+    }
+
+    
+
+       
+            /*Attackクラスには、攻撃力を格納するfloat power,アニメーションを格納するstring attackanim
+            * 攻撃をはじかれるかどうかのbool parriedなどを格納する*/
+
+
+        }
+
+       
+
+
+   
