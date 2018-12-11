@@ -6,7 +6,7 @@ public class AnimationCopy_Test : MonoBehaviour
 {
     public EnemyParamTable epm;
     
-    public List<CloseAttacks> C;
+    public List<CloseAttacks> C= new List<CloseAttacks>();
     // Start is called before the first frame update
     void Start()
     {
