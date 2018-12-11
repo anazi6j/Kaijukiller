@@ -20,7 +20,7 @@ namespace robot
         public void SetAction(Weapon a)
         {
             string targetIdle = a.idle_name;
-            //ここに装備切り替えのアクションも導入する？
+            
             states.anim.Play(targetIdle);
         }
         public void CloseParryCollider()
@@ -37,7 +37,22 @@ namespace robot
     public class Weapon
     {
         public string idle_name;
-        public List<Action> actions;
         public WeaponHook w_hook;
+
+
+        public Action GetAction(List<Action>l,ActionInput inp)
+        {
+            if (l == null)
+                return null;
+
+            for(int i = 0; i < l.Count; i++)
+            {
+                if(l[i].input == inp)
+                {
+                    return l[i];
+                }
+            }
+            return null;
+        }
     }
 }

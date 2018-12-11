@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace robot
 {
-    /*  public class New_CameraControll : MonoBehaviour
+      public class New_CameraControll : MonoBehaviour
       {
           public bool LockOn;
           public float followSpeed = 9;
@@ -46,11 +46,13 @@ namespace robot
               {
                   if (lockonTransform == null)
                   {
-                      Debug.Log("カメラ:ロックオン");
+                      
 
                       lockonTransform = lockonTarget.GetTarget();
-                      states.lockOnTransform = lockonTransform;//ステート側にLockOntransformが参照されてない
-                  }
+                    states.lockOnTransform = lockonTransform;//ステート側にLockOntransformが参照されてない
+                    
+                    Debug.Log("カメラ:ロックオン");
+                }
 
                   if (Mathf.Abs(h) > 0.6f)
                   {
@@ -107,7 +109,7 @@ namespace robot
                   return;
               }
 
-              lookAngle += SmoothX * targetspeed; //(DS4左スティックのHorizontal（最大1)*回転スピード）をlookAngleに加算する。具体的に言うとDS4をちょびっと倒すとlookAngleの値がちょびっと加算され、加算された分だけカメラが回転するようになる（0の時は0を加算。つまり回らない）
+              this.lookAngle += SmoothX * targetspeed; //(DS4左スティックのHorizontal（最大1)*回転スピード）をlookAngleに加算する。具体的に言うとDS4をちょびっと倒すとlookAngleの値がちょびっと加算され、加算された分だけカメラが回転するようになる（0の時は0を加算。つまり回らない）
               transform.rotation =Quaternion.Euler(0,lookAngle,0);//y座標を軸にしてカメラが水平に回転する。角度は
 
 
@@ -124,5 +126,4 @@ namespace robot
               singleton = this;
           }
       }
-  }*/
-}
+  }
