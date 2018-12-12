@@ -121,15 +121,9 @@ namespace robot
             }
             return false;
         }
+        
 
-        private void Awake()
-        {
-          
-            
-            
-        }
-
-        //EnemyAnimationManagerに移植したソースコード。念のためコメントアウト
+        //EnemyAnimationManagerに移植したソースコード。念のためコメントアウトにとどめる
         /* 
          void InitParam()
          {
@@ -365,7 +359,7 @@ namespace robot
             {
                 if (states.canMove&& insight)
                 {
-                    int c_attacknum = Random.Range(0, em.c_attacks.Length);//呼び出す近接攻撃を決定する
+                    int c_attacknum = Random.Range(0, em.c_attacks.Count);//呼び出す近接攻撃を決定する
                     animattacknum = c_attacknum;//animattacknumはc_attacknumを代入した数になる
                     states.CloseAttackaction(c_attacknum);//c_attacksに格納されたアニメーションの中からランダムに選び近接攻撃を仕掛ける
                     
@@ -396,7 +390,7 @@ namespace robot
             {
                 if (states.canMove)
                 {
-                    int b_attacknum = Random.Range(0, em.b_attacks.Length);//背後への攻撃のアニメーションを決定する
+                    int b_attacknum = Random.Range(0, em.b_attacks.Count);//背後への攻撃のアニメーションを決定する
                     animattacknum = b_attacknum;
                     states.CloseBehindaction(b_attacknum);//背後への攻撃アニメーションを行う
                     
