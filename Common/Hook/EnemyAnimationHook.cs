@@ -64,13 +64,13 @@ namespace robot
 
         public void SetIntervalTime_Close()
         {
-            int attackanimno = Random.Range(0, GetComponent<AIManager>().em.c_attacks.Length);
+            int attackanimno = Random.Range(0, GetComponent<AIManager>().em.c_attacks.Count);
             GetComponent<AIManager>().AddTime_Close(attackanimno);
         }
 
         public void SetIntervalTime_Behind()
         {
-            int attackanimno = Random.Range(0, GetComponent<AIManager>().em.b_attacks.Length);
+            int attackanimno = Random.Range(0, GetComponent<AIManager>().em.b_attacks.Count);
             GetComponent<AIManager>().AddTime_Behind(attackanimno);
         }
 

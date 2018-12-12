@@ -28,7 +28,7 @@ namespace robot
         }
 
         //AIManagerに格納されたコライダーや攻撃力、攻撃強度をコピーする
-        public void CopyCattackColliderandAttackPowerandAttackStrength(CloseAttacks[] from)
+        public void CopyCattackColliderandAttackPowerandAttackStrength(List<CloseAttacks> from)
         {
 
             damageCollider = from[weaponid].colliders;
@@ -37,14 +37,14 @@ namespace robot
             
         }
 
-        public void CopyBattackColliderandAttackPowerandAttackStrength(BehindAttacks[] from)
+        public void CopyBattackColliderandAttackPowerandAttackStrength(List<BehindAttacks> from)
         {
             damageCollider = from[weaponid].colliders;
             attackpower = from[weaponid].attackpower;
             attackstrength = from[weaponid].attackstrength;
         }
 
-        public void CopyRattackColliderandAttackPowerandAttackStrength(RuntoAttack[] from)
+        public void CopyRattackColliderandAttackPowerandAttackStrength(List<RuntoAttack> from)
         {
             damageCollider = from[weaponid].colliders;//左が変数を受け取る側で、右側が変数を渡す側である
             attackpower = from[weaponid].attackpower;

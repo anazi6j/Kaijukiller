@@ -38,7 +38,16 @@ using UnityEngine;
 
             private int closeattacknum;
 
-
+    public CloseAttacks(string animation ,int power,float strength,float interval,bool beparried,GameObject collider)
+    {
+        attackanim = animation;
+        attackpower = power;
+        attackstrength = strength;
+        intervaltime = interval;
+        canbeParried = beparried;
+        colliders = collider;
+    }
+   
     
 
    
@@ -50,14 +59,31 @@ using UnityEngine;
 
 
             private int behindattacknum;//攻撃アニメーションをランダムに決定する
-       
 
-        }
+    public BehindAttacks(string animation, int power, float strength, float interval, bool beparried, GameObject collider)
+    {
+        attackanim = animation;
+        attackpower = power;
+        attackstrength = strength;
+        intervaltime = interval;
+        canbeParried = beparried;
+        colliders = collider;
+    }
+
+}
 
         [System.Serializable]
         public class RuntoAttack : Attacks
         {
-    
+    public RuntoAttack(string animation, int power, float strength, float interval, bool beparried, GameObject collider)
+    {
+        attackanim = animation;
+        attackpower = power;
+        attackstrength = strength;
+        intervaltime = interval;
+        canbeParried = beparried;
+        colliders = collider;
+    }
 }
 
         [System.Serializable]
