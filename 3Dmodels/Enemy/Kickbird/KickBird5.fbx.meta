@@ -1,0 +1,1158 @@
+fileFormatVersion: 2
+guid: 9d8d80df73dc3f2418de0766e4462efe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone_L.006
+    100002: Bone_L.006_end
+    100004: Bone_R.006
+    100006: Bone_R.006_end
+    100008: Camera
+    100010: //RootNode
+    100012: Lamp
+    100014: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    100016: "\u5E73\u9762"
+    100018: "\u5E73\u9762.001"
+    100020: "\u5E73\u9762.002"
+    100022: "\u6065\u9AA8\u53F3"
+    100024: "\u6065\u9AA8\u5DE6"
+    100026: "\u7403"
+    100028: "\u7403.002"
+    100030: "\u80CC\u4E2D"
+    100032: "\u80F4\u4F53"
+    100034: "\u8DB3\u53F3\uFF14"
+    100036: "\u8DB3\u53F3\uFF14_end"
+    100038: "\u8DB3\u5DE6\uFF14"
+    100040: "\u8DB3\u5DE6\uFF14_end"
+    100042: "\u8DB3\uFF11\u53F3"
+    100044: "\u8DB3\uFF11\u5DE6"
+    100046: "\u8DB3\uFF12\u53F3"
+    100048: "\u8DB3\uFF12\u5DE6"
+    100050: "\u8DB3\uFF13\u53F3"
+    100052: "\u8DB3\uFF13\u53F3_end"
+    100054: "\u8DB3\uFF13\u5DE6"
+    100056: "\u8DB3\uFF13\u5DE6_end"
+    100058: "\u982D\u90E8"
+    100060: "\u982D\u90E8_end"
+    100062: "\u9996"
+    400000: Bone_L.006
+    400002: Bone_L.006_end
+    400004: Bone_R.006
+    400006: Bone_R.006_end
+    400008: Camera
+    400010: //RootNode
+    400012: Lamp
+    400014: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400016: "\u5E73\u9762"
+    400018: "\u5E73\u9762.001"
+    400020: "\u5E73\u9762.002"
+    400022: "\u6065\u9AA8\u53F3"
+    400024: "\u6065\u9AA8\u5DE6"
+    400026: "\u7403"
+    400028: "\u7403.002"
+    400030: "\u80CC\u4E2D"
+    400032: "\u80F4\u4F53"
+    400034: "\u8DB3\u53F3\uFF14"
+    400036: "\u8DB3\u53F3\uFF14_end"
+    400038: "\u8DB3\u5DE6\uFF14"
+    400040: "\u8DB3\u5DE6\uFF14_end"
+    400042: "\u8DB3\uFF11\u53F3"
+    400044: "\u8DB3\uFF11\u5DE6"
+    400046: "\u8DB3\uFF12\u53F3"
+    400048: "\u8DB3\uFF12\u5DE6"
+    400050: "\u8DB3\uFF13\u53F3"
+    400052: "\u8DB3\uFF13\u53F3_end"
+    400054: "\u8DB3\uFF13\u5DE6"
+    400056: "\u8DB3\uFF13\u5DE6_end"
+    400058: "\u982D\u90E8"
+    400060: "\u982D\u90E8_end"
+    400062: "\u9996"
+    4300000: "\u5E73\u9762"
+    4300002: "\u5E73\u9762.002"
+    4300004: "\u7403"
+    4300006: "\u5E73\u9762.001"
+    4300008: "\u7403.002"
+    7400000: "kickbird_\u304B\u304B\u3068\u304A\u3068\u3057"
+    7400002: "kickbird_\u30A2\u30A4\u30C9\u30EB"
+    7400004: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2Action"
+    7400006: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2Action.001"
+    7400008: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2Action.002"
+    7400010: "kickbird_\u30C0\u30E1\u30FC\u30B8\u602F\u307F"
+    7400012: "kickbird_\u524D\u8E74\u308A\u53F3"
+    7400014: "kickbird_\u524D\u8E74\u308A\u5DE6"
+    7400016: "kickbird_\u5F8C\u308D\u56DE\u3057\u8E74\u308A"
+    7400018: "kickbird_\u6B7B"
+    7400020: "kickbird_\u8D70\u308B"
+    7400022: "kickbird_\u98DB\u3073\u8E74\u308A"
+    7400024: "\u5E73\u9762.002|\u524D\u8E74\u308A\u53F3"
+    7400026: "Lamp|\u30A2\u30A4\u30C9\u30EB"
+    9500000: //RootNode
+    13700000: "\u5E73\u9762"
+    13700002: "\u5E73\u9762.001"
+    13700004: "\u5E73\u9762.002"
+    13700006: "\u7403"
+    13700008: "\u7403.002"
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: d17fa28f97e93af4eada3291c77d984e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "kickbird_\u304B\u304B\u3068\u304A\u3068\u3057"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u304B\u304B\u3068\u304A\u3068\u3057"
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: Kickbird_attackcontrol_Setattackpower
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 40
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5610687
+        functionName: Kickbird_attackcontrol_SetAttackColLactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 40
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.69847333
+        functionName: Kickbird_attackcontrol_SetAttackcolLNotactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 40
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.95801526
+        functionName: Kickbird_animationcontroll_Settime
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.95801526
+        functionName: Kickbird_animationcontroll_Setbehavior
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u30A2\u30A4\u30C9\u30EB"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u30A2\u30A4\u30C9\u30EB"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u30C0\u30E1\u30FC\u30B8\u602F\u307F"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u30C0\u30E1\u30FC\u30B8\u602F\u307F"
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u524D\u8E74\u308A\u53F3"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u524D\u8E74\u308A\u53F3"
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: Kickbird_attackcontrol_Setattackpower
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 10
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.53816795
+        functionName: Kickbird_attackcontrol_SetAttackColRactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 10
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.90494525
+        functionName: Kickbird_attackcontrol_SetAttackcolRNotactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u524D\u8E74\u308A\u5DE6"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u524D\u8E74\u308A\u5DE6"
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6106871
+        functionName: Kickbird_attackcontrol_SetAttackColLactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 10
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8854962
+        functionName: Kickbird_attackcontrol_SetAttackcolLNotactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: Kickbird_attackcontrol_Setattackpower
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 10
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u5F8C\u308D\u56DE\u3057\u8E74\u308A"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u5F8C\u308D\u56DE\u3057\u8E74\u308A"
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: Kickbird_attackcontrol_Setattackpower
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 20
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5687023
+        functionName: Kickbird_attackcontrol_SetAttackColLactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.759542
+        functionName: Kickbird_attackcontrol_SetAttackcolLNotactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.97709924
+        functionName: Kickbird_animationcontroll_Settime
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.97709924
+        functionName: Kickbird_animationcontroll_Setbehavior
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u6B7B"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u6B7B"
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u8D70\u308B"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u8D70\u308B"
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "kickbird_\u98DB\u3073\u8E74\u308A"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|\u98DB\u3073\u8E74\u308A"
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.21755725
+        functionName: Kickbird_attackcontrol_SetAttackColLactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.52290076
+        functionName: Kickbird_attackcontrol_SetAttackcolLNotactive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: Kickbird_attackcontrol_Setattackpower
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 40
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.96183205
+        functionName: Kickbird_animationcontroll_Settime
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.96183205
+        functionName: Kickbird_animationcontroll_Setbehavior
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Bone_R.006/Bone_R.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\u53F3\uFF14/\u8DB3\u53F3\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u53F3/\u8DB3\uFF11\u53F3/\u8DB3\uFF12\u53F3/\u8DB3\uFF13\u53F3/\u8DB3\uFF13\u53F3_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\u5DE6\uFF14/\u8DB3\u5DE6\uFF14_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u6065\u9AA8\u5DE6/\u8DB3\uFF11\u5DE6/\u8DB3\uFF12\u5DE6/\u8DB3\uFF13\u5DE6/\u8DB3\uFF13\u5DE6_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/Bone_L.006/Bone_L.006_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/\u80F4\u4F53/\u80CC\u4E2D/\u9996/\u982D\u90E8/\u982D\u90E8_end"
+        weight: 1
+      - path: "\u5E73\u9762"
+        weight: 1
+      - path: "\u5E73\u9762.001"
+        weight: 1
+      - path: "\u5E73\u9762.002"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.002"
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

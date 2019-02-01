@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 0a2665a1307bbcf49ae9a76d448648be
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_L
+    100006: Bone.001_L.001
+    100008: Bone.001_L.002
+    100010: Bone.001_L.004
+    100012: Bone.001_L.005
+    100014: Bone.001_L.005_end
+    100016: Bone.001_L.007
+    100018: Bone.001_L.008
+    100020: Bone.001_L.009
+    100022: Bone.001_L.009_end
+    100024: Bone.001_L.011
+    100026: Bone.001_L.012
+    100028: Bone.001_L.013
+    100030: Bone.001_L.013_end
+    100032: Bone.001_L.015
+    100034: Bone.001_L.016
+    100036: Bone.001_L.017
+    100038: Bone.001_L.017_end
+    100040: Bone.001_L.019
+    100042: Bone.001_L.020
+    100044: Bone.001_L.021
+    100046: Bone.001_L.021_end
+    100048: Bone.001_R
+    100050: Bone.001_R.001
+    100052: Bone.001_R.002
+    100054: Bone.001_R.004
+    100056: Bone.001_R.005
+    100058: Bone.001_R.005_end
+    100060: Bone.001_R.007
+    100062: Bone.001_R.008
+    100064: Bone.001_R.009
+    100066: Bone.001_R.009_end
+    100068: Bone.001_R.011
+    100070: Bone.001_R.012
+    100072: Bone.001_R.013
+    100074: Bone.001_R.013_end
+    100076: Bone.001_R.015
+    100078: Bone.001_R.016
+    100080: Bone.001_R.017
+    100082: Bone.001_R.017_end
+    100084: Bone.001_R.019
+    100086: Bone.001_R.020
+    100088: Bone.001_R.021
+    100090: Bone.001_R.021_end
+    100092: Bone.002
+    100094: Bone.002_end
+    100096: Bone_L
+    100098: Bone_L.001
+    100100: Bone_L.002
+    100102: Bone_L.003
+    100104: Bone_L.003_end
+    100106: Bone_L.004
+    100108: Bone_L.004_end
+    100110: Bone_R
+    100112: Bone_R.001
+    100114: Bone_R.002
+    100116: Bone_R.003
+    100118: Bone_R.003_end
+    100120: Bone_R.004
+    100122: Bone_R.004_end
+    100124: Camera
+    100126: //RootNode
+    100128: Lamp
+    100130: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    100132: "\u80A1\u9593"
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_L
+    400006: Bone.001_L.001
+    400008: Bone.001_L.002
+    400010: Bone.001_L.004
+    400012: Bone.001_L.005
+    400014: Bone.001_L.005_end
+    400016: Bone.001_L.007
+    400018: Bone.001_L.008
+    400020: Bone.001_L.009
+    400022: Bone.001_L.009_end
+    400024: Bone.001_L.011
+    400026: Bone.001_L.012
+    400028: Bone.001_L.013
+    400030: Bone.001_L.013_end
+    400032: Bone.001_L.015
+    400034: Bone.001_L.016
+    400036: Bone.001_L.017
+    400038: Bone.001_L.017_end
+    400040: Bone.001_L.019
+    400042: Bone.001_L.020
+    400044: Bone.001_L.021
+    400046: Bone.001_L.021_end
+    400048: Bone.001_R
+    400050: Bone.001_R.001
+    400052: Bone.001_R.002
+    400054: Bone.001_R.004
+    400056: Bone.001_R.005
+    400058: Bone.001_R.005_end
+    400060: Bone.001_R.007
+    400062: Bone.001_R.008
+    400064: Bone.001_R.009
+    400066: Bone.001_R.009_end
+    400068: Bone.001_R.011
+    400070: Bone.001_R.012
+    400072: Bone.001_R.013
+    400074: Bone.001_R.013_end
+    400076: Bone.001_R.015
+    400078: Bone.001_R.016
+    400080: Bone.001_R.017
+    400082: Bone.001_R.017_end
+    400084: Bone.001_R.019
+    400086: Bone.001_R.020
+    400088: Bone.001_R.021
+    400090: Bone.001_R.021_end
+    400092: Bone.002
+    400094: Bone.002_end
+    400096: Bone_L
+    400098: Bone_L.001
+    400100: Bone_L.002
+    400102: Bone_L.003
+    400104: Bone_L.003_end
+    400106: Bone_L.004
+    400108: Bone_L.004_end
+    400110: Bone_R
+    400112: Bone_R.001
+    400114: Bone_R.002
+    400116: Bone_R.003
+    400118: Bone_R.003_end
+    400120: Bone_R.004
+    400122: Bone_R.004_end
+    400124: Camera
+    400126: //RootNode
+    400128: Lamp
+    400130: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400132: "\u80A1\u9593"
+    2000000: Camera
+    2100000: "\u30DE\u30C6\u30EA\u30A2\u30EB"
+    2100002: "GD\u982D\u90E8"
+    2100004: "GD_\u80F4\u4F53"
+    4300000: "\u80A1\u9593"
+    7400000: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Charge"
+    7400002: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_ChargeAttack"
+    7400004: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Damage"
+    7400006: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_DamageGrounded"
+    7400008: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Death"
+    7400010: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Idle"
+    7400012: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_jumpDamage"
+    7400014: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnbackStep"
+    7400016: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnIdle"
+    7400018: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft.001"
+    7400020: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunningRight"
+    7400022: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunnningForward"
+    7400024: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepLeft"
+    7400026: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepRight"
+    7400028: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parry"
+    7400030: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parryattack"
+    7400032: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Run"
+    7400034: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack1"
+    7400036: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack2"
+    7400038: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Walking"
+    7400040: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft"
+    7400042: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|LockOnBackStep"
+    9500000: //RootNode
+    10800000: Lamp
+    13700000: "\u80A1\u9593"
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Charge"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Charge"
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_ChargeAttack"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_ChargeAttack"
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Damage"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Damage"
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_DamageGrounded"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_DamageGrounded"
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Death"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Death"
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Idle"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Idle"
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_jumpDamage"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_jumpDamage"
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnbackStep"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnbackStep"
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnIdle"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnIdle"
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft.001"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft.001"
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunningRight"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunningRight"
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunnningForward"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnrunnningForward"
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepLeft"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepLeft"
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepRight"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnSideStepRight"
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parry"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parry"
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2978142
+        functionName: OpenParryCollider
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7772481
+        functionName: CloseParryCollider
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parryattack"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_parryattack"
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Run"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Run"
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack1"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack1"
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2568928
+        functionName: OpenDamageColliders
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.74450344
+        functionName: IncreaseorSetZeroAttacknum
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.98734176
+        functionName: CloseDamageColliders
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack2"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Updownattack2"
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6972574
+        functionName: OpenDamageColliders
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8986175
+        functionName: IncreaseorSetZeroAttacknum
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9462026
+        functionName: CloseDamageColliders
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Walking"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_Walking"
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|GD_LockOnRunningLeft"
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|LockOnBackStep"
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|LockOnBackStep"
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.005
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
